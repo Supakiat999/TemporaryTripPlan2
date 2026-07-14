@@ -1,0 +1,25 @@
+window.QS_MANUAL={
+1:{qsRank:12,qsDisplay:'#12',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+2:{qsRank:8,qsDisplay:'#8',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+3:{qsRank:519,qsDisplay:'=#519',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+4:{qsRank:247,qsDisplay:'=#247',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+5:{qsRank:226,qsDisplay:'#226',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+6:{qsRank:19,qsDisplay:'#19',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+7:{qsRank:25,qsDisplay:'=#25',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+8:{qsRank:96,qsDisplay:'#96',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+9:{qsRank:102,qsDisplay:'#102',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+10:{qsRank:38,qsDisplay:'=#38',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+11:{qsRank:126,qsDisplay:'=#126',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+12:{qsRank:32,qsDisplay:'=#32',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+13:{qsRank:54,qsDisplay:'#54',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+14:{qsRank:11,qsDisplay:'#11',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+15:{qsRank:358,qsDisplay:'=#358',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+16:{qsRank:255,qsDisplay:'#255',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+19:{qsRank:287,qsDisplay:'=#287',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+22:{qsRank:29,qsDisplay:'#29',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+23:{qsRank:16,qsDisplay:'#16',qsYear:2026,verified:true,verifiedOn:'2026-07-14'},
+24:{qsRank:755,qsDisplay:'#751–760',qsYear:2026,verified:true,verifiedOn:'2026-07-14'}
+};
+Object.keys(window.QS_MANUAL).forEach(function(id){
+  if(window.META&&window.META[id]) Object.assign(window.META[id],window.QS_MANUAL[id]);
+});
